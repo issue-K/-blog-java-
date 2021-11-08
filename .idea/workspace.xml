@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="deb3e488-f2c1-473e-9ba3-f4052138a1b7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="blog@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="blog@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="blog@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="blog: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="20aCfmYDQeUwQUB1zAAaYKSWIsn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog/src/main/java/com/cl/dao/mapper" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.28965518" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\My_Code\newblog\blog\src\main\java\com\cl\dao\mapper" />
+      <recent name="D:\My_Code\newblog\blog\src\main\resources" />
+      <recent name="D:\My_Code\newblog\blog\src\main\resources\com.cl.dao.mapper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\My_Code\newblog\blog\target\classes\com\cl\dao\mapper" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="blog" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="blog" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cl.blog" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.blog" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="deb3e488-f2c1-473e-9ba3-f4052138a1b7" name="Default Changelist" comment="" />
+      <created>1636273416914</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636273416914</updated>
+      <workItem from="1636273419991" duration="278000" />
+      <workItem from="1636273722659" duration="6768000" />
+      <workItem from="1636336375264" duration="976000" />
+      <workItem from="1636337407990" duration="505000" />
+      <workItem from="1636338172967" duration="4116000" />
+      <workItem from="1636356947213" duration="8730000" />
+      <workItem from="1636367239960" duration="1405000" />
+      <workItem from="1636369187657" duration="156000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="94" width="813" height="676" key="#Auto_Import" timestamp="1636337057451">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="94" width="813" height="676" key="#Auto_Import/0.0.1536.864@0.0.1536.864" timestamp="1636337057451" />
+    <state x="244" y="188" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1636337714605">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="244" y="188" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1636337714605" />
+    <state x="459" y="241" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1636340945252">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="459" y="241" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1636340945252" />
+    <state x="958" y="144" key="#com.intellij.ide.util.MemberChooser" timestamp="1636358632474">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="958" y="144" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1636358632474" />
+    <state x="553" y="299" width="429" height="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1636339563121">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="553" y="299" width="429" height="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.864@0.0.1536.864" timestamp="1636339563121" />
+    <state x="549" y="190" key="FileChooserDialogImpl" timestamp="1636368088460">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="190" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1636368088460" />
+    <state width="1493" height="227" key="GridCell.Tab.0.bottom" timestamp="1636368655781">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="227" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1636368655781" />
+    <state width="1493" height="227" key="GridCell.Tab.0.center" timestamp="1636368655781">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="227" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1636368655781" />
+    <state width="1493" height="227" key="GridCell.Tab.0.left" timestamp="1636368655781">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="227" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1636368655781" />
+    <state width="1493" height="227" key="GridCell.Tab.0.right" timestamp="1636368655781">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="227" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1636368655781" />
+    <state width="1493" height="227" key="GridCell.Tab.1.bottom" timestamp="1636368655781">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="227" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1636368655781" />
+    <state width="1493" height="227" key="GridCell.Tab.1.center" timestamp="1636368655781">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="227" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1636368655781" />
+    <state width="1493" height="227" key="GridCell.Tab.1.left" timestamp="1636368655781">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="227" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1636368655781" />
+    <state width="1493" height="227" key="GridCell.Tab.1.right" timestamp="1636368655781">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="227" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1636368655781" />
+    <state x="249" y="10" key="SettingsEditor" timestamp="1636368070176">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="249" y="10" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1636368070176" />
+    <state x="178" y="136" key="new project wizard" timestamp="1636274043173">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="178" y="136" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1636274043173" />
+  </component>
+</project>
