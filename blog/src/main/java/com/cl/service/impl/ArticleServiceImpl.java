@@ -5,6 +5,7 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.cl.dao.mapper.ArticleMapper;
 import com.cl.dao.mapper.TagMapper;
 import com.cl.dao.pojo.Article;
+import com.cl.dao.vo.params.Archives;
 import com.cl.dao.vo.params.ArticleVo;
 import com.cl.dao.vo.params.PageParams;
 import com.cl.dao.vo.params.Result;
@@ -63,5 +64,30 @@ public class ArticleServiceImpl implements ArticleService {
             articleVo.setAuthor( sysUserService.findUserById( articleId).getNickname() );
         }
         return articleVo;
+    }
+
+    @Override
+    public List<Article> HotArticle(int limit) {
+        LambdaQueryWrapper<Article> queryWrapper = new LambdaQueryWrapper<>();
+        queryWrapper.orderByDesc( Article::getViewCounts );
+        queryWrapper.select( Article::getId,Article::getTitle );
+        queryWrapper.last("limit "+limit );
+        List<Article> articles = articleMapper.selectList( queryWrapper );
+        return articles;
+    }
+
+    @Override
+    public List<Article> NewArticle(int limit) {
+        LambdaQueryWrapper<Article> queryWrapper = new LambdaQueryWrapper<>();
+        queryWrapper.orderByDesc( Article::getCreateDate );
+        queryWrapper.select( Article::getId,Article::getTitle );
+        queryWrapper.last("limit "+limit );
+        List<Article> articles = articleMapper.selectList( queryWrapper );
+        return articles;
+    }
+
+    @Override
+    public List<Archives> listArchives() {
+        return articleMapper.listArchives();
     }
 }

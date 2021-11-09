@@ -23,4 +23,19 @@ public class ArticleController {
         return articleService.listArticle( pageParams );
     }
 
+    @PostMapping("hot")
+    public Result HotArticle(){
+        int limit = 3;
+        return Result.success( articleService.HotArticle(limit) );
+    }
+
+    @PostMapping("new")
+    public Result NewArticle(){
+        int limit = 3;
+        return Result.success( articleService.NewArticle(limit) );
+    }
+    @PostMapping("listArchives")
+    public Result listArchives(){
+        return Result.success( articleService.listArchives() );
+    }
 }
