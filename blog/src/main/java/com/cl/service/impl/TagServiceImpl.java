@@ -1,5 +1,7 @@
 package com.cl.service.impl;
 
+import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.baomidou.mybatisplus.core.toolkit.CollectionUtils;
 import com.cl.dao.mapper.TagMapper;
 import com.cl.dao.pojo.Tag;
 import com.cl.dao.vo.params.TagVo;
@@ -9,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 @Service
@@ -30,9 +33,18 @@ public class TagServiceImpl implements TagService {
     }
 
     @Override
+    public List<TagVo> findHotTags( int limit ) {
+        List<Long> hotsTagIds = tagMapper.findHotsTagIds( limit );
+        if( CollectionUtils.isEmpty( hotsTagIds ) ){
+            return Collections.emptyList();
+        }
+        List<Tag> tagList = tagMapper.findTagsByTagIds( hotsTagIds );
+        return copyList( tagList );
+    }
+
+    @Override
     public List<TagVo> findTagsByArticleId(Long id) {
         List<Tag> tags = tagMapper.findTagsByArticleId(id);
-        //List<Tag> tags = tagMapper.selectList(null);
         return copyList(tags);
     }
 }

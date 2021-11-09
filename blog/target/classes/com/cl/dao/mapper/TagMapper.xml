@@ -8,7 +8,6 @@
         where id in
         (select tag_id from ms_article_tag where article_id=#{articleId})
     </select>
-
     <select id="findHotsTagIds" resultType="long" parameterType="int">
         select tag_id from ms_article_tag group by tag_id order by count(*) desc limit #{limit};
     </select>

@@ -32,12 +32,10 @@ public class ArticleServiceImpl implements ArticleService {
     @Override
     //分页查询article数据库表得到结果
     public Result listArticle(PageParams pageParams) {
-        System.out.println("进入");
         Page<Article> page = new Page<>( pageParams.getPage(),pageParams.getPageSize() );
         LambdaQueryWrapper<Article> queryWrapper = new LambdaQueryWrapper<>();
         queryWrapper.orderByDesc( Article::getCreateDate );//按照时间倒序排序
         Page<Article> articlePage = articleMapper.selectPage( page,queryWrapper );
-        System.out.println("hhhhhhhhhhhhhhhhhhhhhhhhhh");
         List<Article> records = articlePage.getRecords();
         List<ArticleVo> articleVoList = copyList( records,true,true );
 

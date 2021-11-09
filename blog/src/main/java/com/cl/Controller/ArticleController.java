@@ -18,10 +18,9 @@ public class ArticleController {
     @Autowired
     private ArticleService articleService;
 
-    @PostMapping()
+    @PostMapping()  //返回文章概述显示在页面上,类似csdn的个人首页,一条一条记录下来
     public Result listArticle(@RequestBody PageParams pageParams){
-        System.out.println("kkkkkkkkkkkkkkkkkkkkkkkkk");
-        System.out.println(  pageParams.toString() );
         return articleService.listArticle( pageParams );
     }
+
 }
